@@ -1,3 +1,3 @@
-# React + Vite
+# Linux Quiz
 
-Generates random 10 Linux quizzes. Uses [Quiz API](https://quizapi.io/).
+Generates a quiz of random 10 Linux questions. Uses [Quiz API](https://quizapi.io/).
