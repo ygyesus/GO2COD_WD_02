@@ -1,0 +1,109 @@
+/* Global Styles */
+* {
+  font-family: monospace;;
+}
+body {
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.answer {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #666;
+  border: 1px solid #777;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+input {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+/* Ordered List Styles */
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  counter-reset: list-item;
+
+}
+
+ol li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #666;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+
+}
+
+h3 {
+  display: flex;
+}
+
+ol li::before {
+  content: counter(list-item) ".";
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+/* Submit Button Styles */
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
